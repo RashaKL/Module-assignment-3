@@ -1,0 +1,117 @@
+*{box-sizing 
+    :border-box}
+    
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+    
+ 
+  .menu {
+      text-align: center;
+      
+  }
+   #header-nav {
+    background-color:yellow;
+    border-radius: 0;
+    border: 0;
+  }
+  #div1,#div2,#div3 {
+      background-color: turquoise;
+      border: #000 0px;
+     text-align: center; 
+    
+  }
+
+  .navbar-toggle {
+                  
+                 
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 15px;
+  margin-right: 2px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  }
+
+
+ .navbar-brand { 
+    background-color: yellow;
+        border-radius: 0;
+        border: 0;
+        width: 100%;
+       
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 225%;
+      
+        font-weight: bold;
+        float:left;
+        
+        display: inline;
+      
+     }  
+     .container {
+       margin:0px;
+       
+     }
+
+     #header-nav {
+       padding-left: 22px;
+       border: 2px solid black;
+       margin-left: -15px;
+      
+       padding-bottom: 20px;
+     }
+      .navbar-header {
+        margin-top: 10px; 
+      } 
+     
+     
+  
+
+
+
+
+#nav-list {
+    margin-top: 3px;
+   
+  }
+  #nav-list a {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5em;
+    
+  }
+  #nav-list a:hover {
+    background: #fff;
+    color: #000
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header .navbar-header {
+    border: 1px solid #fff;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+  }
+  .icon-bar {
+    background-color: black;
+    
+  }
+  
+  button.navbar-toggle.navbar-header {
+    border: 1px solid black;
+  }
+  
